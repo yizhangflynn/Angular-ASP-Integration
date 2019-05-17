@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\projects\demo-apps\asp-mvc-angular-cli\aspMvcAngularCliDemo\aspMvcAngularCliDemo\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 17:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 17:29:20</publishTime>
+    </File>
+    <File Include="bin/aspMvcAngularCliDemo.dll">
+      <publishTime>05/17/2019 18:11:59</publishTime>
+    </File>
+    <File Include="bin/aspMvcAngularCliDemo.pdb">
+      <publishTime>05/17/2019 18:11:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 16:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 12:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 14:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 14:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 11:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="demo-app/.editorconfig">
+      <publishTime>05/17/2019 13:06:04</publishTime>
+    </File>
+    <File Include="demo-app/.gitignore">
+      <publishTime>05/17/2019 13:06:10</publishTime>
+    </File>
+    <File Include="demo-app/angular.json">
+      <publishTime>05/17/2019 17:37:42</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/e2e/src/app.e2e-spec.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/e2e/src/app.e2e-spec.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/e2e/src/app.po.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/e2e/src/app.po.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.component.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.component.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.component.spec.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.component.spec.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.module.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/app/app.module.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/environments/environment.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/environments/environment.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/environments/environment.prod.js">
+      <publishTime>05/17/2019 18:13:04</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/environments/environment.prod.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/main.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/main.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/polyfills.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/polyfills.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/test.js">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/dist/out-tsc/src/test.js.map">
+      <publishTime>05/17/2019 18:13:03</publishTime>
+    </File>
+    <File Include="demo-app/e2e/protractor.conf.js">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/e2e/tsconfig.e2e.json">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/package.json">
+      <publishTime>05/17/2019 17:19:33</publishTime>
+    </File>
+    <File Include="demo-app/README.md">
+      <publishTime>05/17/2019 13:06:23</publishTime>
+    </File>
+    <File Include="demo-app/src/app/app.component.html">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/app/app.component.scss">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/assets/.gitkeep">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/browserslist">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/favicon.ico">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/index.html">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/karma.conf.js">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/styles.scss">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/tsconfig.app.json">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/tsconfig.spec.json">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/src/tslint.json">
+      <publishTime>05/17/2019 13:01:46</publishTime>
+    </File>
+    <File Include="demo-app/tsconfig.json">
+      <publishTime>05/17/2019 13:06:07</publishTime>
+    </File>
+    <File Include="demo-app/tslint.json">
+      <publishTime>05/17/2019 17:43:41</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>05/17/2019 14:11:04</publishTime>
+    </File>
+    <File Include="Properties/PublishProfiles/FolderProfile.pubxml">
+      <publishTime>05/17/2019 18:13:50</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/3rdpartylicenses.txt">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/es2015-polyfills.c5dd28b362270c767b34.js">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/es2015-polyfills.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/es2015-polyfills.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/favicon.ico">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/index.html">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/main.1b39d6cb95bab0031c4a.js">
+      <publishTime>05/17/2019 13:56:01</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/main.41cd35253745d247545a.js">
+      <publishTime>05/17/2019 16:43:04</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/main.b697f7b3c97053efdcc4.js">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/main.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/main.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/polyfills.8bbb231b43165d65d357.js">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/polyfills.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/polyfills.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/runtime.26209474bfa8dc87a77c.js">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/runtime.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/runtime.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/styles.3ff695c00d717f2d2a11.css">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/styles.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/styles.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/vendor.e5fc23cb60662f012138.js">
+      <publishTime>05/17/2019 18:14:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/vendor.fb17b5d5d182cc696ad6.js">
+      <publishTime>05/17/2019 16:43:04</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/vendor.js">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/angular/demo-app/vendor.js.map">
+      <publishTime>05/17/2019 18:10:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.intellisense.js">
+      <publishTime>05/17/2019 12:58:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>05/17/2019 12:58:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>05/17/2019 12:58:17</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>05/17/2019 13:57:33</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>05/17/2019 12:58:18</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>05/17/2019 12:58:09</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/17/2019 13:59:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

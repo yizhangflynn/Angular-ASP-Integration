@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "build-dev": "cd demo-app && npm run build-dev",
+        "build-prod": "cd demo-app && npm run build-prod"
+    }
+}
